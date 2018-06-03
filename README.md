@@ -1,6 +1,18 @@
 # play-deuces
 Poker simulator built using the Deuces python library
 
+## Dependecies
+Install dependencies
+
+  pip install -r requirements.txt
+  
+## Usage
+In your cloned repository's main directory: "play-deuces/"
+
+  python playhand.py
+
+
+### Sample output
 Player 1 hand rank = 4665 (Pair)
   [ J ♦ ] , [ A ♠ ]  
   
@@ -18,3 +30,6 @@ board:
   
 Player 4 wins with (Pair)
   [ A ♦ ] , [ 3 ♠ ]  
+  
+  
+- Ross Mauck
