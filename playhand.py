@@ -1,7 +1,6 @@
 # built in python 2.7.15
 import time
 from deuces import Card, Evaluator, Deck
-import numpy as np
 
 print("running setting up...")
 
@@ -25,7 +24,6 @@ Card.print_pretty_cards(hand)
 #numplayers = input("How many players?")
 numplayers = input("How many players?")
 numplayers = 4
-players = np.zeros(4)
 
 # Start a new deck
 deck = Deck()
